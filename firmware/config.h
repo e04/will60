@@ -1,0 +1,30 @@
+// Copyright 2022 e04 (@e04)
+// SPDX-License-Identifier: GPL-2.0-or-later
+
+#pragma once
+#define DEVICE_VER 0x0002
+#define MANUFACTURER e04
+#define VENDOR_ID 0x0000
+#define PRODUCT_ID 0x0001
+#define PRODUCT will60
+#define MATRIX_COLS 6
+#define MATRIX_ROWS 10
+#define MATRIX_COL_PINS { D1, D2, D3, D5, D4, D6}
+#define MATRIX_ROW_PINS { B7, B5, B6, C6, C7 }
+#define BACKLIGHT_PIN F7
+#define BACKLIGHT_LEVELS 3
+#define DEBOUNCE 5
+#define DIODE_DIRECTION COL2ROW
+#define SOFT_SERIAL_PIN D0
+#define MASTER_LEFT
+#define LAYER_STATE_8BIT
+#define SPLIT_USB_DETECT
+#define MOUSEKEY_INTERVAL 16
+#define MOUSEKEY_DELAY 0
+#define MOUSEKEY_TIME_TO_MAX 30
+#define MOUSEKEY_MAX_SPEED 7
+#define MOUSEKEY_WHEEL_DELAY 0
+#define TAPPING_TERM 140
+#define RETRO_TAPPING
+#define PERMISSIVE_HOLD
+#define IGNORE_MOD_TAP_INTERRUPT
